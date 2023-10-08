@@ -1,0 +1,21 @@
+body { /*This is to change text properties*/
+    background-color: darkgray;
+    color:whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    }
+    h2 {/*This is to change text properties*/
+        color: black;
+        text-align: center;
+        font-weight: bold;
+    }
+    #UAT {/*This is to change the UAT logo properties*/
+        margin-right: 1px;
+        text-align: center;
+    }  
+    #input{
+        width: 250px;
+        height: 20px;
+        font-size: 19px;
+        border-radius: 5px;
+      }

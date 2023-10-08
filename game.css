@@ -1,0 +1,36 @@
+body {
+    background-color: darkgray;
+    color:whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    }
+    #UAT {
+        margin-right: 1px;
+        text-align: center;
+    }
+    #hit {
+        width: 100px;
+        height: 50px;
+        font-size: 30px;
+        font-weight: bold;
+        
+    }
+    #stay {
+        width: 100px;
+        height: 50px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    #dealer-cards img{
+        height: 175px;
+        width: 125px;
+        margin: 1px;
+    }
+    #your-cards img{
+        height: 175px;
+        width: 125px;
+        margin: 1px;
+    }
+    #results {
+        font-size: 30px;
+    }

@@ -1,0 +1,17 @@
+body { /*This is to change text properties*/
+background-color: rgb(95, 78, 78);
+color:rgb(190, 185, 185);
+text-align: center;
+font-weight: bold;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+h2 {/*This is to change text properties*/
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+    font-family:monospace
+}
+#UAT {/*This is to change the UAT logo properties*/
+    margin-right: 1px;
+    text-align: center;
+}  

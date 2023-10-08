@@ -1,0 +1,31 @@
+body { /*This is to change text properties*/
+    background-color: rgb(255, 119, 119);
+    color:rgb(94, 92, 92);
+    text-align: center;
+    font-weight: bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    }
+    h2 {/*This is to change text properties*/
+        color: rgb(77, 77, 77);
+        text-align: center;
+        font-weight: bold;
+        font-family:monospace
+    }
+    #UAT {/*This is to change the UAT logo properties*/
+        margin-right: 1px;
+        text-align: center;
+    }  
+    #start{/*This is to change butten properties*/
+        width: 250px;
+        height: 40px;
+        font-size: 22px;
+        border-radius: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      #stop{/*This is to change butten properties*/
+        width: 250px;
+        height: 40px;
+        font-size: 22px;
+        border-radius: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }

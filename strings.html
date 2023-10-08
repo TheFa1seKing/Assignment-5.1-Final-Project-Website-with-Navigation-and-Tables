@@ -1,0 +1,54 @@
+<!DOCTYPE html> <!-- Caleb Carroll-->
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <p> <img id="UAT"src="UAT.png"><!-- This is to add the UAT logo -->
+    <h2> Assignment 3.2: User Input Validation</h2>
+    <link rel="stylesheet" href="string.css"><!-- This is linking the css file to the html file-->
+    <script src="strings.js" ></script><!-- This is to import the JS code -->
+</head>
+<body>
+    <h1>Please enter your information to login</h1>
+  </header>
+  <div class="inputs">
+    <label for="fname">Enter your first name:</label>  
+       <input type="text" id="fname">  <!-- This is to create a text box -->
+<br>
+    <label for="fname">Enter your last name:</label>  
+       <input type="text" id="lname">  <!-- This is to create a text box -->
+<br>
+    <label for="fname">Enter your phone number:</label>  
+       <input type="tel" id="number" placeholder="123-456-7890">  <!-- This is to create a text box -->
+
+    <button onclick="CheckInput()">Check Input</button> <!-- When the button is clicked ot will do an action-->
+    <p id="loginStatus"></p><!-- This is to show the results -->
+  </div>
+</div>
+<h2>
+    <table id = "data" border = "10" width = "85%">
+        <thead>
+            <th style = ></th>           
+            <th style = >Navigation table</th>                   
+    </thead>
+    <tbody>
+        <tr id = "tbody">
+            <td><button onclick = "boards();">Boards </button></td>
+            <td><button onclick = "meme();">Meme</button></td>
+            <td><button onclick = "game();">Game </button></td>
+        </tr>
+        <tr id = "tbody">
+            <td><button onclick = "check();">Palindrome Checker </button></td>
+            <td><button onclick = "user();">User Input </button></td>
+            <td><button onclick = "move();">Moveing image </button></td>
+        </tr>
+        <tr id = "tbody">
+            <td><button onclick = "music();">Music </button></td>
+            <td><button onclick = "nav();">Navigation </button></td>
+            <td><button onclick = "replace();"></button></td>
+        </tr>
+    </tbody>
+</h2>
+</body>
+</html>

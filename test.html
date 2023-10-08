@@ -1,0 +1,48 @@
+<!DOCTYPE html><!-- Caleb Carroll-->
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <p> <img id="UAT"src="UAT.png"><!-- This is to add the UAT logo --></p>
+    
+    <h2>Assignment 4.2: Incorporate Audio</h2>
+
+    <link rel="stylesheet" href="music.css"><!-- This is to import the CSS file -->
+    <script src="music.js" ></script><!-- This is to import the JS code -->
+    <source src= "LIVELOVELIE.mp3"  type = "audio/mpeg" id = "music"></source><!--Sourse:https://open.spotify.com/track/28LjsHpTa3lf1b4MqrM9pY?si=daa20c7469704b15 -->
+</head>
+<body>
+    <h1>
+        <img id="Live"src="Live.png"><!-- This is to add the song logo -->
+        <br>
+               <button id="start" onclick="start()"> Start the music! </button>   <!-- This is to create a butten and on click woll start the function start() -->
+               <button id="stop" onclick="stop()"> Stop the music! </button>  <!-- This is to create a butten and on click woll start the function stop() -->
+        <br>
+    </h1>
+    <h2>
+        <table id = "data" border = "10" width = "85%">
+            <thead>
+                <th style = ></th>           
+                <th style = >Navigation table</th>                   
+        </thead>
+        <tbody>
+            <tr id = "tbody">
+                <td><button onclick = "boards();">Boards </button></td>
+                <td><button onclick = "meme();">Meme</button></td>
+                <td><button onclick = "game();">Game </button></td>
+            </tr>
+            <tr id = "tbody">
+                <td><button onclick = "check();">Palindrome Checker </button></td>
+                <td><button onclick = "user();">User Input </button></td>
+                <td><button onclick = "move();">Moveing image </button></td>
+            </tr>
+            <tr id = "tbody">
+                <td><button onclick = "music();">Music </button></td>
+                <td><button onclick = "nav();">Navigation </button></td>
+                <td><button onclick = "replace();"></button></td>
+            </tr>
+        </tbody>
+    </h2>
+</body>
+</html>

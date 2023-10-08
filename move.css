@@ -1,0 +1,28 @@
+body { /*This is to change text properties*/
+    background-color: rgb(122, 101, 101);
+    color:rgb(189, 182, 182);
+    text-align: center;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+    h2 {/*This is to change text properties*/
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        font-family:fantasy
+    }
+    #UAT {/*This is to change the UAT logo properties*/
+        margin-right: 1px;
+        text-align: center;
+    }  
+    #buttens{/*This is to change text box properties*/
+        width: 250px;
+        height: 20px;
+        font-size: 19px;
+        border-radius: 5px;
+      }
+    #memeImage {/*This is to change the image  properties*/
+        position:absolute; 
+        max-width: 30%;/*This is to change the image size from https://www.scaler.com/topics/css-image-size/*/
+        max-height: 30%;/*This is to change the image size*/
+    }

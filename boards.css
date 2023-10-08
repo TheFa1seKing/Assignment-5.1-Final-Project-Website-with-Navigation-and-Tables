@@ -1,0 +1,28 @@
+body {
+    background-color: gray;
+    color:whitesmoke;
+    }
+    h2 {
+        text-align: center;
+    }
+    
+    nav {
+        height: 6000px;
+        width: 200px;
+        float: left;
+        padding: 5px;
+        line-height: 30px;
+    }
+    p {
+        text-align: center;
+        margin-right: 200px;
+    }
+    #memeImage {
+        margin: right 200cp;
+    }
+    #UAT {
+        margin-right: 1px;
+    }
+    h1 {
+        text-align: center;
+    }
